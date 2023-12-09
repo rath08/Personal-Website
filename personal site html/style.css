@@ -1,0 +1,134 @@
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 350%;
+    margin-top: 90px;
+    margin-bottom: 0px;
+    line-height: -2;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    margin-top: 0px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Indie Flower', cursive;
+}
+
+a {
+    color: #FFE5B4;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
+}
+hr{
+    border: dotted  #a6b6b6  6px;
+    border-bottom: 0px;
+    width: 10%;
+    margin: 50px auto;
+}
+
+.top-container {
+    background-color: #e4f5f9;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container
+{
+padding: 50px 0 0 0;
+}
+.top_cloud {
+    position: absolute;
+    
+    right: 166px;
+    top: 146px;
+    width: 87px;
+    height: 82px;
+
+}
+
+.bottom_cloud {
+    position: absolute;
+    left: 266px;
+    top: 286px;
+    width: 89px;
+    height: 79px;
+}
+.mountain
+{
+    height: 400px;
+    width: 1263px;
+    vertical-align: middle;
+}
+
+#bio{
+    font-family: cursive ;
+}
+
+.skill-row
+{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skills-row1stimg{
+float: left;
+margin-right: 50px;
+}
+.skill-row2ndimg{
+float: right;
+margin-left: 50px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  .bottom-container
+  {
+    background-color: #66BFBF;
+    margin-top: 30px;
+  }
+  #copyright{
+    margin-bottom: 0px;
+    margin-top: 4px;
+    color: #eaf6f6;
+    font-size: 0.75rem;
+  }
